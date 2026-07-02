@@ -1,6 +1,7 @@
 <?php
 require_once "../clases/personas.php";
 require_once "../clases/universitarios.php";
+require_once "../clases/estudiante.php";
 
 $persona1 = new persona("adminMapache", 25, "adminMapache@example.com");
 echo $persona1->saludar();
@@ -9,4 +10,10 @@ echo $persona2->saludar();
 
 $universitario1 = new universitario("mapachecitoEstudioso", 20, "mapachecitoEstudiante@example.com", "Ingeniería Informática");
 echo $universitario1->saludar();
+
+$estudiante1 = new estudiante("EstudianteMapachon", 22, "estudianteIngresado@gmail.com");
+echo $estudiante1->saludar();
+
+
+
 ?>

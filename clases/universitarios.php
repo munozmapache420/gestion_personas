@@ -8,7 +8,7 @@ class universitario extends persona {
     }
 
     public function saludar() {
-        return parent::saludar(). $this->carrera;
+        return parent::saludar(). " - Carrera: " . $this->carrera . "</br>" . " ". "</br>";
     }
 }
 
