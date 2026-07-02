@@ -12,4 +12,4 @@ class universitario extends persona {
     }
 }
 
-?>
+?> 
