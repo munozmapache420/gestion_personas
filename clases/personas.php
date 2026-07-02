@@ -12,8 +12,15 @@ class persona {
     }
 
     public function saludar() {
-        return " hola mapache " ."</br>". $this->nombre . "</br> " . $this->edad . "</br> " . $this->correo;
+        return " hola mapache " ."</br>". $this->nombre . "</br> " . $this->edad . "</br> " . $this->correo . "</br>";
     }
 }
+
+
+
+
+
+
+
 
 ?>
