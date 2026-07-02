@@ -1,16 +1,8 @@
 <?php
 require_once "../clases/personas.php";
 
-$persona1 = new persona();
-$persona1->nombre = "adminMapache";
-$persona1->edad = 25;
-$persona1->correo = "adminMapache@example.com";
+$persona1 = new persona("adminMapache", 25, "adminMapache@example.com");
 echo $persona1->saludar();
-
-$persona2 = new persona();
-$persona2->nombre = "usuario";
-$persona2->edad= 20;
-$persona2->correo= "usuario420@gmail.com";
+$persona2 = new persona("userMpache", 30, "userMpache@example.com");
 echo $persona2->saludar();
-
 ?>
